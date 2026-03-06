@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pizza Billing App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Pizza Billing System</h1>
+
+<label>Select Pizza Type</label>
+<select id="pizzaType">
+<option value="veg">Veg Pizza (300)</option>
+<option value="nonveg">Non-Veg Pizza (400)</option>
+</select>
+
+<br><br>
+
+<input type="checkbox" id="cheese"> Extra Cheese (100)
+<br>
+<input type="checkbox" id="toppings"> Extra Toppings (150)
+<br>
+<input type="checkbox" id="takeaway"> Take Away (20)
+
+<br><br>
+
+<button onclick="generateBill()">Generate Bill</button>
+
+<h2 id="bill"></h2>
+
+<script src="script.js"></script>
+
+</body>
+</html>
